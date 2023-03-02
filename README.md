@@ -1,1 +1,3 @@
 # 7-daysofcode
+# #feedback7DoC
+  Dificuldade em alinhar os SPAN do terceiro bloco...
