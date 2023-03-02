@@ -1,0 +1,54 @@
+:root{
+	--fonte-principal: Inter;
+	--cor-vinho: #8E2424;
+	--branco: #FFFFFF;
+}
+
+.nav__bar{
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	justify-content: center;
+	font-family: var(--fonte-principal);
+	column-gap: 8em;
+}
+
+.logo__nav{
+	display: flex;
+	column-gap: 0.5em;
+	align-items: center;
+}
+
+.link__nav ul, a{
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+	column-gap: 1.5em;
+}
+
+.link__nav{
+	margin-right: 18em;
+	font-size: 16px;
+}
+
+.button__nav, button{
+	display: flex;
+	column-gap: 0.5em;
+	font-family: var(--fonte-principal);
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+.bnb_1{
+	background-color: var(--branco);
+	margin-left: 1em;
+	
+}
+
+.bnb_2{
+	background-color: var(--cor-vinho);
+	color: white;
+	
+}
