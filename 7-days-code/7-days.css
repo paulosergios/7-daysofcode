@@ -114,3 +114,75 @@ body{
 	color: var(--text-color);
 	font-size: 16px;
 }
+
+.terceira__secao{
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	row-gap: 1em;
+	margin-top: 10em;
+}
+
+.bloco__ter{
+	display: grid;
+	row-gap: 1em;
+}
+
+.bloco__ter h4{
+	display: grid;
+	text-align: center;
+}
+
+.terceira__secao p{
+	color: var(--text-color);
+	font-size: 16px;
+	margin-bottom: 3em;
+}
+
+.terceira__secao h4{
+	background-color: mistyrose;
+	color: var(--cor-vinho);
+	border-radius: 10px;
+	width: 10vw;
+}
+
+.quarta__secao{
+	display: grid;
+	width: 100vw;
+	row-gap: 2.5em;
+	margin-top: 2.5em;
+	justify-content: center;
+}
+
+.quarta__secao span{
+	font-weight: bolder;
+}
+
+.bloco__prin{
+	display: grid;
+	row-gap: 1.3em;
+	margin: 1em 0 0.5em 0;
+}
+
+.bloco__ts{
+	background-color: var(--branco);
+	border: #EAECF0 solid 1px;
+	border-radius: 10px;
+	width: 100%;
+	display: grid;
+	padding: 1.5em 0 0 1.5em;
+}
+
+.bloco__inf{
+	width: 60em;
+	height: 5em;
+	display: inline-flex;
+	column-gap: 1em;
+	align-items: center;
+}
+
+.bloco__inf span{
+	color: var(--text-color);
+	font-weight: normal;
+}
+
